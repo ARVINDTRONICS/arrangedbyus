@@ -1,3 +1,5 @@
+
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,33 @@ a {
 
 * {
   box-sizing: border-box;
+  font-size:18px;
+}
+
+
+
+
+@font-face {
+  font-family: Finlandica-Regular;
+  src: local('Finlandica-Regular'),
+    url('../assets/fonts/Finlandica-Regular.ttf')
+      format('truetype');
+      font-display: swap;
+}
+
+
+@font-face {
+  font-family: Finlandica-Bold;
+  src: local('Finlandica-Bold'),
+    url('../assets/fonts/Finlandica-Bold.ttf')
+      format('truetype');
+      font-display: swap;
+}
+
+@font-face {
+  font-family: Finlandica-Medium;
+  src: local('Finlandica-Medium'),
+    url('../assets/fonts/Finlandica-Medium.ttf')
+      format('truetype');
+      font-display: swap;
 }
