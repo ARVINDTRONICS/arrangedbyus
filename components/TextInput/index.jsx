@@ -11,7 +11,7 @@ import {
 export const TextInput = ({ label, placeholder, size, helpText,type }) => {
   return (
     <FormControl>
-      <FormLabel htmlFor="email">{label}</FormLabel>
+      <FormLabel htmlFor={label}>{label}</FormLabel>
       <Input
         type={type}
         focusBorderColor="orange.400"
